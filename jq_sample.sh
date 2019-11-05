@@ -15,7 +15,7 @@ PROJECT=$1;
 
 echo "Project named recieved = > " $PROJECT
 
-echo "Fetching details about project [$PROJECT] from [KYLIN - METASTORE]"
+echo "Fetching details about project [$PROJECT] from [METASTORE]"
 
 ./metastore.sh fetch /project/${PROJECT}.json
 
